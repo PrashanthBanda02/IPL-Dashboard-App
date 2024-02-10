@@ -1,0 +1,34 @@
+.match-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 16px;
+  padding: 10px;
+  margin: 10px;
+}
+.competing-team-logo {
+  min-width: 150px;
+  height: 150px;
+}
+.competing-team-name {
+  font-size: 24px;
+  text-align: center;
+}
+.result {
+  font-size: 16px;
+  text-align: center;
+}
+.match-status {
+  font-size: 24px;
+}
+
+.match-won {
+  color: green;
+}
+
+.match-lost {
+  color: red;
+}
